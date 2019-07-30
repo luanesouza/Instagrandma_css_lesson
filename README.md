@@ -9,6 +9,8 @@ In CSS, selectors are patterns used to select the element(s) you want to style.
 
  - Tag, class (. - group of elements), id (# - one element)
 
+ https://repl.it/@luanesouza/AchingDimgreyOpengroup
+
  - Naming your CSS selectors. Best Practice (CamelCase, underscore, or snake_case)
 
 * What does this code do?
@@ -16,6 +18,14 @@ In CSS, selectors are patterns used to select the element(s) you want to style.
   color: red;
   text-align: center;
 }`
+
+* Flexbox
+
+A flex container expands items to fill available free space, or shrinks them to prevent overflow.
+
+* Gridbox
+
+CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives.
 
 
 
