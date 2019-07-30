@@ -10,7 +10,8 @@ Grandma.create([{
   name: "Erics grandma",
   username: "granny_the_coder",
   bio: "Trying this Instagranny thing",
-  password: "123"
+  password: "123",
+  profile_img: "https://pbs.twimg.com/profile_images/3619065169/1620f4ec4a65ba21afc3c362325d2983_400x400.jpeg"
   }])
 
   Image.create([{

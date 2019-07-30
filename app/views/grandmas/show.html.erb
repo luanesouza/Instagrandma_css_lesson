@@ -1,29 +1,21 @@
 <p id="notice"><%= notice %></p>
 <nav>
-  <img src="" alt="logo">
-  <p> Instagranny </p>
+  <img id="insta_logo" src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" alt="logo">
+  <p> Instagrandma </p>
+  <button type="button" name="button"> Log Out</button>
 </nav>
-<p>
-  <strong>Name:</strong>
-  <%= @grandma.name %>
-</p>
+
+<section>
+  <img id="profile_img" src=" <%= @grandma.profile_img %> " alt="profile_img">
+  <div class="">
+    <%= @grandma.username %>
+    <button type="button" name="button">Follow</button>
+  </div>
+  <%= @grandma.bio %>
+</section>
 
 <p>
-  <strong>Username:</strong>
-  <%= @grandma.username %>
-</p>
-
-<p>
-  <strong>Password:</strong>
-  <%= @grandma.password %>
-</p>
-
-<p>
-  <strong>Images</strong>
   <% @grandma.images.each do |image|%>
-    <img src="<%= image.url %>">
+    <img class="insta_images" src="<%= image.url %>">
   <% end %>
 </p>
-
-<%= link_to 'Edit', edit_grandma_path(@grandma) %> |
-<%= link_to 'Back', grandmas_path %>

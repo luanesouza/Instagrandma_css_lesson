@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2019_07_30_191132) do
     t.string "username"
     t.string "password"
     t.text "bio"
+    t.string "profile_img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
