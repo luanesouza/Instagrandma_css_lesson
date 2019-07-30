@@ -9,6 +9,7 @@
 Grandma.create([{
   name: "Erics grandma",
   username: "granny_the_coder",
+  bio: "Trying this Instagranny thing",
   password: "123"
   }])
 

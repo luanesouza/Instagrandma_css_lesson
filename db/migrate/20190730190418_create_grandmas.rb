@@ -4,6 +4,7 @@ class CreateGrandmas < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :username
       t.string :password
+      t.text :bio
 
       t.timestamps
     end
