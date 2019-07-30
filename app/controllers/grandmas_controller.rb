@@ -69,6 +69,6 @@ class GrandmasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def grandma_params
-      params.require(:grandma).permit(:name, :username, :password, :img_url)
+      params.require(:grandma).permit(:name, :username, :password)
     end
 end

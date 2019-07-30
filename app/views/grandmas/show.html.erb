@@ -16,8 +16,10 @@
 </p>
 
 <p>
-  <strong>Img url:</strong>
-  <%= @grandma.img_url %>
+  <strong>Images</strong>
+  <% @grandma.images.each do |image|%>
+    <img src="<%= image.url %>">
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_grandma_path(@grandma) %> |
