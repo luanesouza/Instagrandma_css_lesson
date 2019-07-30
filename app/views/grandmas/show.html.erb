@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @grandma.name %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @grandma.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @grandma.password %>
+</p>
+
+<p>
+  <strong>Img url:</strong>
+  <%= @grandma.img_url %>
+</p>
+
+<%= link_to 'Edit', edit_grandma_path(@grandma) %> |
+<%= link_to 'Back', grandmas_path %>
