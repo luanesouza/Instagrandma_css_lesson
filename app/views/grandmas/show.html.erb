@@ -1,21 +1,28 @@
 <p id="notice"><%= notice %></p>
 <nav>
-  <img id="insta_logo" src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" alt="logo">
-  <p> Instagrandma </p>
+  <div class="logo_title">
+    <img id="insta_logo" src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" alt="logo">
+    <p id="instagrandma_title"> Instagrandma </p>
+  </div>
   <button type="button" name="button"> Log Out</button>
 </nav>
 
 <section>
-  <img id="profile_img" src=" <%= @grandma.profile_img %> " alt="profile_img">
-  <div class="">
-    <%= @grandma.username %>
-    <button type="button" name="button">Follow</button>
-  </div>
-  <%= @grandma.bio %>
-</section>
 
+  <img id="profile_img" src=" <%= @grandma.profile_img %> " alt="profile_img">
+  <div class="user_info">
+    <div>
+    <span id="grandma_username"><%= @grandma.username %></span>
+    <button type="button" name="button">Follow</button>
+    </div>
+    <%= @grandma.bio %>
+
+  </div>
+</section>
 <p>
-  <% @grandma.images.each do |image|%>
-    <img class="insta_images" src="<%= image.url %>">
-  <% end %>
+  <div class="images">
+    <% @grandma.images.each do |image|%>
+      <img class="insta_images" src="<%= image.url %>">
+    <% end %>
+  </div>
 </p>

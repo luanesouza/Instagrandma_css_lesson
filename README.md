@@ -2,7 +2,7 @@
 
 * What is CSS?
 
-https://twitter.com/instagram?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+https://www.instagram.com/instagram/
 
 * What are CSS selectors?
 In CSS, selectors are patterns used to select the element(s) you want to style.

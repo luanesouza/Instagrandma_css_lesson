@@ -1,3 +1,56 @@
 // Place all the styles related to the Grandmas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#instagrandma_title {
+  font-family: 'Oleo Script', cursive;
+  font-size: 3em;
+}
+
+#insta_logo {
+  width: 5em;
+  height: 6em;
+  margin-right: 2em;
+  padding-right: 1em;
+}
+
+.logo_title{
+  display: flex;
+}
+
+section {
+  display: flex;
+}
+
+#profile_img {
+  width: 15em;
+  border-radius: 50%;
+  margin-right: 4em;
+}
+
+#grandma_username{
+  font-size: 2em;
+}
+
+.user_info {
+
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.insta_images {
+  width: 20em;
+  height: 20em;
+  border-radius: .5em;
+  margin-left: 2em;
+
+}
